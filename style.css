@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /
+    
+}
+
+body {
+    
+    display: flex; 
+    font-family: 'poppins', sans-serif;
+}
+
+.conteine {
+    display: flex;
+    
+}
+
+
+.conteineForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 50%; 
+   
+}
+.divTitulo{
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2.5rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.divForm{
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.divInput{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0.5rem;
+}
+
+.titulo{
+    color: #030303;
+}
+
+.paragrafos{
+    color: #636364;
+}
+
+.conteineImg {
+    width: 50%; 
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+}
+
+.labelLogin{
+    padding: 3px;
+    color: #030303;
+}
+
+.inputLogin{
+    border: 2px solid #757575;
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    padding-left: 10px;
+    height: 3rem;
+}
+
+.boxSeleto{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+
+.buttonLogin{
+    padding: 1rem;
+    background-color: #EA454c;
+    color: #ffffff;
+    width: 85%;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.buttonDiv{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.linkNone{
+    text-decoration: none;
+    
+}
+.divParaCadastro{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 0.5rem;
+
+
+}
+
+@media (max-width: 768px) {
+    .conteine{
+        align-items: center;
+        flex-direction: column;
+    }   
+
+    .conteineForm{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .conteineImg{
+        width: 100%;
+        display: none;
+    }
+
+    .divForm{
+        width: 90%;
+    }
+
+    .boxSeleto{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
